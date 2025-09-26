@@ -46,6 +46,7 @@
 input {
     flex: 1;
     border: none;
+    outline:none;
     background: transparent;
     padding: 10px;
     font-size: 16px; 
@@ -53,6 +54,7 @@ input {
 
 button {
     border: none;
+    outline: none;
     padding: 12px 30px; 
     background: linear-gradient(130deg, #cb9553, #cc760e);
     color: #fff;
@@ -69,7 +71,6 @@ ul li {
     cursor: pointer;
     user-select: none;
     position: relative;
-    word-wrap: break-word; 
 }
 
 ul li::before {
@@ -78,7 +79,7 @@ ul li::before {
     height: 24px; 
     width: 24px; 
     border-radius: 50%;
-    background-image: url(To-do-list-app\images\unchecked.png); 
+    background-image: url(../To-do-list-app/images/unchecked.png); 
     background-size: cover;
     background-position: center;
     top: 14px; 
@@ -91,7 +92,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-    background-image: url(To-do-list-app\images\checked.png);
+    background-image: url(../To-do-list-app/images/checked.png);
 }
 
 ul li span {
